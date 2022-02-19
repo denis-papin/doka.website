@@ -6,7 +6,7 @@ RUN apk add nginx; \
     mkdir /etc/ssl/private; \
     echo "<h1>Hello world!</h1>" > /var/www/localhost/htdocs/index.html;
 
-ADD $PWD/content/index.html  /var/www/localhost/htdocs/index.html
+ADD $PWD/content/*  /var/www/localhost/htdocs/
 
 # CONFIGURATIONS
 
