@@ -4,6 +4,8 @@ target/
 
 **/target/
 
+docker/content/
+
 *.iml
 
 *.log
