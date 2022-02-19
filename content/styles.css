@@ -1,11 +1,9 @@
 html {
- font-family: "Helvetica", "Helvetica Neue", "Arial";
+    font-family: "Helvetica,Helvetica Neue,", serif;
 }
-
 body {
     margin: 0;
 }
-
 .section {
 
     display: flex;
@@ -25,7 +23,7 @@ body {
     width : 50vw;
 
     color : #3d3d57;
-    border: #02ffb9 solid 0px;
+    border: #02ffb9 solid 0;
     margin-bottom: 1rem;
 }
 
@@ -35,19 +33,19 @@ body {
     width : 50vw;
 
     color : #3d3d57;
-    border: #f57918 solid 0px;
+    border: #f57918 solid 0;
     margin-bottom: 1rem;
 
 }
 
 .main {
     color : #3d3d57;
-    border: #ae4773 solid 0px;
+    border: #ae4773 solid 0;
     width : 50vw;
 }
 
 .features {
     color : #3d3d57;
-    border: #0062ff solid 0px;
+    border: #0062ff solid 0;
     width : 50vw;
 }
