@@ -6,7 +6,7 @@ cd /etc/nginx;
 
 # A list of environment variables that are passed to the container and their defaults
 # CRT - double check that the file exists
-export CRT="${CRT:=nginx-selfsigned.crt}";
+export CRT="${CRT:=yukidb-website.crt}";
 if [ -f "/etc/ssl/certs/$CRT" ]
 then
     # set crt file in the default.conf file
@@ -14,7 +14,7 @@ then
 fi
 
 # KEY - double check that the file exists
-export KEY="${KEY:=nginx-selfsigned.key}";
+export KEY="${KEY:=yukidb-website.key}";
 if [ -f "/etc/ssl/private/$KEY" ]
 then
     # set key file in the default.conf file
