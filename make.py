@@ -13,6 +13,7 @@ def build_website() :
     cp_dir('./content', './docker/')
 
 
+# Run commands to build the container
 def build_docker_image() :
 
     print("Getting the certificates")
@@ -29,7 +30,7 @@ def build_docker_image() :
     print("Building docker image...")
     call(['docker', 'build', './docker', '-t', 'yukidb-website'])
 
-
+# Run commands to run the container
 def run_docker_image() :
     print("Running docker image...")
     call(['docker', 'container', 'stop', 'yukidb-website'])
