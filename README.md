@@ -3,4 +3,4 @@
 - This website is the right place where to find the most recent news 
 about the doka DMS.  
 
-* List of the Doka Command Line
+* List of Doka Commnand Line
