@@ -7,6 +7,7 @@ RUN apk add nginx; \
     echo "<h1>Hello world!</h1>" > /var/www/localhost/htdocs/index.html;
 
 ADD $PWD/content/*  /var/www/localhost/htdocs/
+ADD $PWD/content/artefacts/0.1.0/*  /var/www/localhost/htdocs/artefacts/0.1.0/
 
 # CONFIGURATIONS
 
