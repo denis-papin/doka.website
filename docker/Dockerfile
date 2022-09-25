@@ -8,6 +8,7 @@ RUN apk add nginx; \
 
 ADD $PWD/content/*  /var/www/localhost/htdocs/
 ADD $PWD/content/artefacts/0.1.0/*  /var/www/localhost/htdocs/artefacts/0.1.0/
+ADD $PWD/content/artefacts/0.2.0/*  /var/www/localhost/htdocs/artefacts/0.2.0/
 
 # CONFIGURATIONS
 
